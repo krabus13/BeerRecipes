@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid plum;
+  border-radius: 25px;
+  width: 50%;
+  margin: 120px;
+  margin-bottom: -50px;
+  padding: 20px;
+  background-color: white;
+  text-decoration: none;
+  color: rgb(54, 54, 102);
+}
+
+button {
+  width: 100px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid plum;
+  margin-left: 15px;
+  padding: 2px;
+  font-size: 15px;
+  font-family: "Trebuchet MS";
+}
+img {
+  width: 70px;
+  height: 150px;
+}
+@media (max-width: 480px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 120%;
+    border: 1px solid plum;
+    border-radius: 25px;
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(54, 54, 102);
+  }
+  img {
+    width: 99px;
+    height: 200px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+  button {
+    width: auto;
+    padding: 0px;
+    font-size: 13px;
+  }
+}

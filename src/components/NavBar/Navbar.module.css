@@ -1,0 +1,39 @@
+.bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  border-bottom: 2px solid plum;
+  z-index: 9999;
+}
+.recipeCount {
+  font-size: 19px;
+  padding-left: 10px;
+  color: rgb(213, 213, 235);
+}
+.title {
+  text-decoration: none;
+  color: rgb(213, 213, 235);
+  transition: color 0.3 ease;
+}
+.title:hover {
+  color: plum;
+}
+
+@media (max-width: 480px) {
+  .bar {
+    padding: 0;
+    font-size: 10px;
+    justify-content: space-evenly;
+  }
+  .recipeCount {
+    font-size: 15px;
+    padding-left: 0px;
+    color: rgb(213, 213, 235);
+  }
+}
